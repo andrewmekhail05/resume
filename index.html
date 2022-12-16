@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Personal Resume</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            font-family: 'Roboto', sans-serif;
+        }
+        body{
+            background-color: purple;
+        }
+        header{
+            text-align: center;
+            background-color: white;
+            border: 5px solid black;
+            height:50px;
+            font-size: larger;
+        }
+        header > h1{
+            transition: 1s;
+        }
+        /* Main Resume */
+        .resume{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        /* Main Portion of the resume */
+        .main{
+            width:70%;
+            background-color: hotpink;
+            border: 5px solid black;
+        }
+        /* Side  */
+        .sideBar{
+            width:20%;
+            height: 800px;
+            background-color: rgb(255, 191, 0);
+            border: 5px solid black;
+        }
+        #selfPort{
+            width:200px;
+        }
+        #important{
+            font-size:15px;
+        }
+        @media only screen and (max-width:1000px) {
+            *{
+                font-size:10px;
+            }
+            header{
+                font-size: 40px;
+            }
+            .sideBar{
+                width:70vw;
+                height:50vh;
+            }
+            #selfPort{
+                width:150px;
+            }
+        }
+        @media only screen and (max-width:760px) {
+            *{
+                font-size:10px;
+            }
+            header{
+                font-size:30px;
+            }
+            .sideBar{
+                width:80vw;
+            }
+            #selfPort{
+                width:100px;
+            }
+        }
+        @media only screen and (max-width:520px) {
+            *{
+                font-size:7px;
+            }
+            header{
+                font-size:20px;
+            }
+            .sideBar{
+                width:90vw;
+                height:40vh;
+            }
+            .main{
+                width:90vw;
+                height:40vh;
+            }
+            #selfPort{
+                width:50px;
+            }
+        }
+        @media only screen and (max-width:376px) {
+            *{
+                font-size:6px;
+            }
+            header{
+                font-size:20px;
+            }
+            .sideBar{
+                width:90vw;
+                height:40vh;
+            }
+            .main{
+                width:90vw;
+                height:40vh;
+            }
+            #selfPort{
+                width:50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Andrew O. Mekhail</h1>
+    </header>
+    <!-- Resume Body -->
+    <div class="resume">
+        <div class="sideBar">
+            <img id="selfPort" src="selfportrait.JPG" alt="selfPort"><br>
+            <div id="important">
+                <b>Important Information:</b>
+                <li>16</li>
+                <li>December 23rd, 2005</li>
+                <li>Surprise, Arizona</li>
+                <li>My contact information:<br><b>555-555-5555</b><br><b>amekha733@west-mec.org</b></li>
+                <li>My home address:<br><b>12345 W Meme Street Phoenix, Arizona 99999</b></li><br>
+                <b>Post-Highschool Goal</b>
+                <li>After Highschool, I plan on going to Estrella Mountain Community college for computer science. While I am in college, I am going to march professional Indoor percussion groups until I age out, which the age out is 22.<br>
+                While I am doing that, and after I age out, I plan on being a tech/sub-instructor for my group that I am apart of right now, Convergence Indoor Percussion. I also plan on having a job during College using my skills from West-MEC.<br> 
+                Post-graduation, I plan on working in the computer science field and hopefully starting a family by then. On the side, it is also a dream of mine to start/run my own indoor percussion group.</li>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Personal Summary:</h2><hr>
+            <p>I am a 16 year old who is currently a Junior in Highschool currently attending 2 schools; Willow Canyon Highschool and West-MEC (Western Marciopa Education Center). At my Main highschool, Willow Canyon, I take 3 classes; Physics, Pre-Calculus, and English 5-6. And at WestMEC, I am partaking in the Coding Program. After I graduate in 2024, I hope to use my West-MEC Class and skills to help me get a job right away. </p><br><br>
+
+            <h2>Previous Work Experiences</h2><hr>
+            <p>January to February of 2022, I worked at Popeyes Louisiana Kitchen. I typically worked Monday's and Wednesdays and worked a 4-11 shift a couple hours after school. Due to school conflicts, I did not work there that much but it gave me a job experience and I learned financially from it. Every shift, except for 2, I would make the Chicken sandwiches and help prep and make the sides. The 2 other shifts, I cashed out and worked the window. It was a little stressful, but I was able to learn from it. </p><br><br>
+
+            <h2>High School Experiences:</h2><hr>
+            <p>I have attended Willow Canyon since August of 2020. I took a total of 7 honors classes my freshman and sophomore year. I also took 2 years of coding, and I believe that has helped me with my West-MEC experience. My freshman year I took Honors Biology, Honors geometry, Honors spanish, Honors world history, Coding 1-2, and Honors English. My sophomore year, I took honors english, regular spanish, honors American History, regular chemistry, Algebra 3-4, and Coding 3-4. The honors classes helped me achieve my 3.43 GPA so I will be in a good setup for graduation. In my 2 years of the coding class I took, I learned the computer Language known as Python. I had the opportunity to take the CTE exam and I passed that. Since I took python the first 2 years of highschool, I believe when it comes to the scripting part of my West-MEC Class, I will have some strong support to get me started. </p><br><br>
+
+            <h2>Hobbies/Skills:</h2><hr>
+            <p>Outside of my main classes, I do Marching Band and Indoor Percussion. This is my third year marching, and it will soon be my third year doing Indoor percussion. For marching band, I march my school's Marching band; Willow Canyon Marching band. And during the winter season, I march the group, that used to be associated with Willow Canyon but moved up to an independent group, entitled "Convergence Indoor Percussion". These past 2-3 years, I would always have practices running from 5-9pm and have a couple of camps. Besides freshman year of marching band, I would attend occasional saturday competitions where we competed and got scored, and we actually did really good on a lot of them.</p><br><br>
+
+            <h2>Document Version of my Resume:</h2>
+            <a href="https://docs.google.com/document/d/11cRVVzUuk5fPkmMl0OISlQcJWsY8PWhgfMwDX6gICOs/edit?usp=sharing" target="_blank"><button>My Resume</button></a>
+        </div>
+    </div>
+</body>
+</html>
